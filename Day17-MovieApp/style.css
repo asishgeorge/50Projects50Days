@@ -110,3 +110,29 @@ main{
 .movie:hover .overview{
     transform:translateY(0)
 }
+
+#tags{
+    width:80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.tag{
+    color:white;
+    padding:10px 20px;
+    background-color: orange;
+    border-radius: 50px;
+    margin:5px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.tag.highlight{
+    background-color: red;
+}
+.no-results{
+    color:white;
+}
